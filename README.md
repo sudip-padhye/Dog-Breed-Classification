@@ -17,11 +17,19 @@ Here we replace the top Layers(Fully Connected Layers and the softmax layers) an
 Download the [Dataset](https://www.kaggle.com/c/dog-breed-identification/data) and extract and crop the images with the help of annotaions provided . Now we split the Dataset into Training,Validation and Testing,This should be done carefully ensuring there is no class imbalance in various chunks.Dataset can be converted into **tfRecords** Format as this format allows faster input and output operations. 
 
 ## 3. Execution
+
 a. Optimizer: Adam optimizer
+
 b. Metrics: loss (categorical_crossentropy), accuracy
+
 c. Activation function: last layer - softmax	
+
 						other layers - relu
+
 d. 0.2 dropout added in-between layers
+
 e. Callback added for accuracy greater than 97%
+
 f. Batch size: 500
+
 g. Data Augmentation done by rescaling, rotating, sheering, zooming & horizontally flipping
