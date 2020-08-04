@@ -22,14 +22,14 @@ a. Optimizer: Adam optimizer
 
 b. Metrics: loss (categorical_crossentropy), accuracy
 
-c. Activation function: last layer - softmax	
+c. Last Layer Activation function: softmax	
 
-						other layers - relu
+d. Last Layer Activation function: relu
 
-d. 0.2 dropout added in-between layers
+e. 0.2 dropout added in-between layers
 
-e. Callback added for accuracy greater than 97%
+f. Callback added for accuracy greater than 97%
 
-f. Batch size: 500
+g. Batch size: 500
 
-g. Data Augmentation done by rescaling, rotating, sheering, zooming & horizontally flipping
+h. Data Augmentation done by rescaling, rotating, sheering, zooming & horizontally flipping
